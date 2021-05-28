@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #container {
@@ -31,8 +32,6 @@ li {
     list-style-type: none;
     text-transform: uppercase;
     padding-right: 20px;
-    
-
 }
 
 .main_menu li a {
@@ -45,13 +44,24 @@ li {
 }
  
 .spotlight {
-    background-image: "(.//banner.jpg)";
-}
-
-.section_main {
-    height: 400px;
-    width: 400px;
-    
+    height: 500px;;
     margin: 30px 0;
     border-radius: 10px;
+    background-position: center;
+    background-image: url("../img/banner.jpg");
+    padding: 25% 20% 10% 10%;
+}
+
+
+.text {
+    color: gray;
+}
+
+.text_spotlight{
+    width: 500px;
+    color: white
+}
+
+h3 {
+    font-size: 26px;
 }
