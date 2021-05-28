@@ -45,8 +45,13 @@ li {
 }
  
 .spotlight {
+    background-image: "(.//banner.jpg)";
+}
+
+.section_main {
     height: 400px;
-    background-color: #E1D67A;
+    width: 400px;
+    
     margin: 30px 0;
     border-radius: 10px;
 }
