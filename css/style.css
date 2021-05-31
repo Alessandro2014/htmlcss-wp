@@ -44,76 +44,70 @@ li {
     background-image: url("../img/banner.jpg");
     background-position: center;
     margin: 30px 0;
+    color: white;
 }
  
 .spotlight {
     height: 500px;
-    padding: 25% 30% 10% 5%;
+    padding: 25% 40% 10% 5%;
     background-color: rgba(7, 7, 7, 0.2);
     border-radius: 10px;
 
 }
 
-.text {
-    color: gray;
-}
-
-/* .text_spotlight{
-    width: 500px;
-    color: white
-} */
-
 #text_spotlight {
     font-size: 32px;
-    color: white;
 }
 
-#img_1 {
+.opaque {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(7, 7, 7, 0.2);
+    border-radius: 10px;
+}
+
+.img_leadership {
     height: 200px;
     width: 20%;
     border-radius: 10px;
     background-position: center;
-    background-size: 100%;
     margin: 30px 20px 10px 0;
-    background-image: url("../img/img-1.jpg");
     float: left;
-    border: 1px solid black;
 }
 
-#img_2 {
+.img_1 {
+    background-size: 100%;
+    background-image: url("../img/img-1.jpg");
+}
+
+.img_2 {
     height: 200px;
     width: 55%;
     border-radius: 10px;
     background-size: 100%;
     background-position: center;
-    margin: 30px 20px 10px 0;
     background-image: url("../img/banner-2.jpg");
-    float: left;
-    border: 1px solid black;
 }
 
-#img_3 {
-    height: 200px;
-    width: 20%;
-    border-radius: 10px;
-    background-position: center;
-    margin: 30px 20px 10px 0;
+.img_3 {
     background-image: url("../img/img-3.jpg");
-    float: left;
-    border: 1px solid black;
 }
 
-.texto{
+.text {
     height: 200px;
     width: 20%;
     margin: 0px 20px 20px 0;
     float: left;
 }
-.textop{
+.text_along{
     height: auto;
     width: 55%;
     margin: 0px 20px 20px 0;
     float: left;
+}
+
+p {
+    color: gray;
 }
 
 footer {
