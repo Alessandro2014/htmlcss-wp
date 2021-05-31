@@ -10,22 +10,17 @@
     margin: 0 auto;
 }
 
-/* .clearfix::after {
+ .clearfix::after {
     content: "";
     display: table;
-    clear: both; */
+    clear: both;
 }
 
-img {
-    width: 100%;
-}
 
 #logo {
-    width: 100px;
-    margin-bottom: 50px;
-    background-size: cover;
+    width: 150px;
+    margin-bottom: 30px;
 }
-
 
 li {
     display: inline-block;
@@ -42,26 +37,90 @@ li {
 .main_menu {
     margin-bottom: 20px;
 }
+
+.section_1 {
+    height: 500px;
+    border-radius: 10px;
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    margin: 30px 0;
+}
  
 .spotlight {
-    height: 500px;;
-    margin: 30px 0;
+    height: 500px;
+    padding: 25% 30% 10% 5%;
+    background-color: rgba(7, 7, 7, 0.2);
     border-radius: 10px;
-    background-position: center;
-    background-image: url("../img/banner.jpg");
-    padding: 25% 20% 10% 10%;
-}
 
+}
 
 .text {
     color: gray;
 }
 
-.text_spotlight{
+/* .text_spotlight{
     width: 500px;
     color: white
+} */
+
+#text_spotlight {
+    font-size: 32px;
+    color: white;
 }
 
-h3 {
-    font-size: 26px;
+#img_1 {
+    height: 200px;
+    width: 20%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 100%;
+    margin: 30px 20px 10px 0;
+    background-image: url("../img/img-1.jpg");
+    float: left;
+    border: 1px solid black;
+}
+
+#img_2 {
+    height: 200px;
+    width: 55%;
+    border-radius: 10px;
+    background-size: 100%;
+    background-position: center;
+    margin: 30px 20px 10px 0;
+    background-image: url("../img/banner-2.jpg");
+    float: left;
+    border: 1px solid black;
+}
+
+#img_3 {
+    height: 200px;
+    width: 20%;
+    border-radius: 10px;
+    background-position: center;
+    margin: 30px 20px 10px 0;
+    background-image: url("../img/img-3.jpg");
+    float: left;
+    border: 1px solid black;
+}
+
+.texto{
+    height: 200px;
+    width: 20%;
+    margin: 0px 20px 20px 0;
+    float: left;
+}
+.textop{
+    height: auto;
+    width: 55%;
+    margin: 0px 20px 20px 0;
+    float: left;
+}
+
+footer {
+    text-align: center;
+}
+
+#hearts {
+    color: red;
+    font-size: 24px;
 }
