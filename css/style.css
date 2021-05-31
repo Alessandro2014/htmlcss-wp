@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 
- .clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -49,7 +49,7 @@ li {
 .spotlight {
     height: 500px;
     padding: 25% 40% 10% 5%;
-    background-color: rgba(7, 7, 7, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 
 }
@@ -62,43 +62,46 @@ li {
 .opaque {
     height: 100%;
     width: 100%;
-    background-color: rgba(7, 7, 7, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
 
 .img_leadership {
     height: 200px;
-    width: 20%;
+    width: calc((50% / 2) - 20px);
     border-radius: 10px;
     background-position: center;
-    margin: 30px 20px 10px 0;
     float: left;
 }
 
 .img_1 {
     background-size: 100%;
     background-image: url("../img/img-1.jpg");
+    margin: 30px 20px 10px 0;
 }
 
 .img_2 {
-    width: 55%;
+    width: 50%;
     background-size: 100%;
     background-image: url("../img/banner-2.jpg");
+    margin: 30px 20px 10px 0;
+
 }
 
 .img_3 {
     background-image: url("../img/img-3.jpg");
+    margin: 30px 0px 10px 0;
+
 }
 
 .text {
-    height: 200px;
-    width: 20%;
+    width: calc((50% / 2) - 30px);
     margin: 0px 20px 20px 0;
     float: left;
 }
+
 .text_along {
-    height: auto;
-    width: 55%;
+    width: 50%;
     margin: 0px 20px 20px 0;
     float: left;
 }
@@ -109,6 +112,7 @@ p {
 
 footer {
     text-align: center;
+    margin: 20px 0;
 }
 
 #hearts {
